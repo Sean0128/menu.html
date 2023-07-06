@@ -1,6 +1,6 @@
 .container{
   width:100%;
-  height:800px;
+  height:fit-content;
   background-color:blanchedalmond;
   display:inline-block;
   justify-content: center;
