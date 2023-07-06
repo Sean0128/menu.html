@@ -1,0 +1,7 @@
+.container{
+  width:33.33%;
+  height:800px;
+  background-color:blanchedalmond;
+  display:inline-block;
+  justify-content: center;
+}
