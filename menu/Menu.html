@@ -54,8 +54,8 @@
         var column2Content = '';
 
         for (var r = 0; r < rows; r++) {
-            column1Content += `<p style="font-size: min(max(1.5vw, 16px), 36px)">${data.getFormattedValue(r, 0)}</p>`;
-            column2Content += `<p style="font-size: min(max(1.5vw, 16px), 36px)">${data.getFormattedValue(r, 2)}</p>`;
+            column1Content += `<p style="font-size: min(max(3.5vw, 16px), 36px)">${data.getFormattedValue(r, 0)}</p>`;
+            column2Content += `<p style="font-size: min(max(3.5vw, 16px), 36px)">${data.getFormattedValue(r, 2)}</p>`;
         }
 
         document.getElementById(column1Id).innerHTML = column1Content;
@@ -97,12 +97,12 @@
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" src="pictures\漢堡.png">
                 </div> 
-                <div class="col s6 m6" style="background-color: antiquewhite;">
+                <div class="col s12 m6" style="background-color: antiquewhite;">
                     <div class="card-content">
                         <div id="a"></div>
                     </div>
                 </div>
-                <div class="col s6 m6" style="background-color: antiquewhite;">
+                <div class="col s12 m6" style="background-color: antiquewhite;">
                     <div class="card-content">
                         <div id="b"></div>
                     </div>
