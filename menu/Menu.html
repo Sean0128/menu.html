@@ -54,8 +54,8 @@
         var column2Content = '';
 
         for (var r = 0; r < rows; r++) {
-            column1Content += `<p style="font-size: min(max(3.5vw, 16px), 36px)">${data.getFormattedValue(r, 0)}</p>`;
-            column2Content += `<p style="font-size: min(max(3.5vw, 16px), 36px)">${data.getFormattedValue(r, 2)}</p>`;
+            column1Content += `<p style="font-size: min(max(3.5vw, 12px), 36px)">${data.getFormattedValue(r, 0)}</p>`;
+            column2Content += `<p style="font-size: min(max(3.5vw, 12px), 36px)">${data.getFormattedValue(r, 2)}</p>`;
         }
 
         document.getElementById(column1Id).innerHTML = column1Content;
